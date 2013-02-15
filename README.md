@@ -25,3 +25,20 @@ cd /path/to/your/android/sourcetree/
 
 repo sync -j16
 
+
+Credits
+=============
+
+
+TEAM GALAXY Y (TOTORO)
+
+     * WhiteXP
+     * Hell_lock
+
+TEAM GALAXY ACE I (COOPERVE)
+
+     * Bieltv.3
+     * Spacecaker
+
+
+
