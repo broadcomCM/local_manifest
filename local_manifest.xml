@@ -1,11 +1,11 @@
   <manifest>
   <remote name="BroadcomCM" fetch="git://github.com/BroadcomCM/" />
   <remove-project name="CyanogenMod/android_frameworks_base" />
-  <project path="frameworks/base" name="BroadcomCM/android_frameworks_base" />
-  <project path="device/samsung/totoro" name="BroadcomCM/android_device_samsung_totoro" />
-  <project path="device/samsung/cooperve" name="BroadcomCM/android_device_samsung_cooperve" />
-  <project path="device/samsung/tassve" name="BroadcomCM/android_device_samsung_tassve" />
-  <project path="device/samsung/cori" name="BroadcomCM/android_device_samsung_cori" />
-  <project path="device/samsung/bcm21553-common" name="BroadcomCM/android_device_samsung_bcm21553-common" />
-  <project path="vendor/samsung" name="BroadcomCM/android_vendor_samsung" />
+  <project path="frameworks/base" name="BroadcomCM/android_frameworks_base" remote="BroadcomCM" revision="master"/>
+  <project path="device/samsung/totoro" name="BroadcomCM/android_device_samsung_totoro" remote="BroadcomCM" revision="cm-7.2.0"/>
+  <project path="device/samsung/cooperve" name="BroadcomCM/android_device_samsung_cooperve" remote="BroadcomCM" revision="cm-7.2.0"/>
+  <project path="device/samsung/tassve" name="BroadcomCM/android_device_samsung_tassve" remote="BroadcomCM" revision="cm-7.2.0"/>
+  <project path="device/samsung/cori" name="BroadcomCM/android_device_samsung_cori" remote="BroadcomCM" revision="cm-7.2.0"/>
+  <project path="device/samsung/bcm21553-common" name="BroadcomCM/android_device_samsung_bcm21553-common" remote="BroadcomCM" revision="cm-7.2.0"/>
+  <project path="vendor/samsung" name="BroadcomCM/android_vendor_samsung" remote="BroadcomCM" revision="cm-7.2.0"/>
 </manifest>
