@@ -1,9 +1,7 @@
 local_manifest
 ==============
 
-
 local manifest for for replacing CM repo's for BroadcomCM specific
-
 
 
 Little How-To
@@ -25,15 +23,4 @@ repo sync
 Credits
 =============
 
-TEAM BROADCOMCM
-    * Bieltv.3
-    * Mackief
-    * Legolas93
-    * Lopicl.00
-    * Spacecaker
-    
-ALSO THANKS FOR THE CONTRBUTIONS OF:
-    * Kissingmylove
-    * Percy-g2
-    * PsychoGame
-    * WhiteXP
+Team BroadcomCM

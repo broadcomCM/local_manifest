@@ -1,11 +1,16 @@
   <manifest>
-  <remote name="BroadcomCM" fetch="git://github.com/BroadcomCM/" />
-  <remove-project name="CyanogenMod/android_frameworks_base" />
-  <project path="frameworks/base" name="BroadcomCM/android_frameworks_base" remote="BroadcomCM" revision="master"/>
-  <project path="device/samsung/totoro" name="BroadcomCM/android_device_samsung_totoro" remote="BroadcomCM" revision="cm-7.2.0"/>
-  <project path="device/samsung/cooperve" name="BroadcomCM/android_device_samsung_cooperve" remote="BroadcomCM" revision="cm-7.2.0"/>
-  <project path="device/samsung/tassve" name="BroadcomCM/android_device_samsung_tassve" remote="BroadcomCM" revision="cm-7.2.0"/>
-  <project path="device/samsung/cori" name="BroadcomCM/android_device_samsung_cori" remote="BroadcomCM" revision="cm-7.2.0"/>
-  <project path="device/samsung/bcm21553-common" name="BroadcomCM/android_device_samsung_bcm21553-common" remote="BroadcomCM" revision="cm-7.2.0"/>
-  <project path="vendor/samsung" name="BroadcomCM/android_vendor_samsung" remote="BroadcomCM" revision="cm-7.2.0"/>
+  <remote name="broadcomCM" fetch="git://github.com" />
+
+  <remove-project name="androidarmv6/android_frameworks_base" />
+  <remove-project name="androidarmv6/android_system_core" />
+  <remove-project name="CyanogenMod/android_bionic" />
+
+  <project path="frameworks/base" name="broadcomCM/android_frameworks_base" remote="broadcomCM" revision="ics-plus"/>
+  <project path="bionic" name="broadcomCM/android_bionic" remote="broadcomCM" revision="ics"/>
+  <project path="system/core" name="broadcomCM/android_system_core" remote="broadcomCM" revision="ics-plus"/>
+  <project path="device/samsung/totoro" name="broadcomCM/android_device_samsung_totoro" remote="broadcomCM" revision="ics"/>
+  <project path="device/samsung/cooperve" name="broadcomCM/android_device_samsung_cooperve" remote="broadcomCM" revision="ics"/>
+  <project path="device/samsung/tassve" name="broadcomCM/android_device_samsung_tassve" remote="broadcomCM" revision="ics"/>
+  <project path="device/samsung/bcm21553-common" name="broadcomCM/android_device_samsung_bcm21553-common" remote="broadcomCM" revision="ics"/>
+  <project path="vendor/samsung" name="broadcomCM/android_vendor_samsung" remote="broadcomCM" revision="ics"/>
 </manifest>
