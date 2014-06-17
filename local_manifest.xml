@@ -1,5 +1,5 @@
   <manifest>
-  <remote name="broadcomCM" fetch="git://github.com" />
+  <remote name="broadcomCM" fetch="https://github.com/" />
 
   <remove-project name="androidarmv6/android_frameworks_base" />
   <remove-project name="androidarmv6/android_system_core" />
@@ -8,6 +8,8 @@
   <project path="frameworks/base" name="broadcomCM/android_frameworks_base" remote="broadcomCM" revision="ics-plus"/>
   <project path="bionic" name="broadcomCM/android_bionic" remote="broadcomCM" revision="ics"/>
   <project path="system/core" name="broadcomCM/android_system_core" remote="broadcomCM" revision="ics-plus"/>
+  <project path="brcm_usrlib" name="broadcomCM/android_hardware_broadcom_brcm_usrlib" remote="broadcomCM" revision="ics"/>
+  <project path="kernel/samsung/bcm21553-common" name="broadcomCM/android_kernel_samsung_bcm21553-common" remote="broadcomCM" revision="ics"/>
   <project path="device/samsung/totoro" name="broadcomCM/android_device_samsung_totoro" remote="broadcomCM" revision="ics"/>
   <project path="device/samsung/cooperve" name="broadcomCM/android_device_samsung_cooperve" remote="broadcomCM" revision="ics"/>
   <project path="device/samsung/tassve" name="broadcomCM/android_device_samsung_tassve" remote="broadcomCM" revision="ics"/>
