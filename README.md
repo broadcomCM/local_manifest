@@ -1,7 +1,8 @@
-local_manifest
-==============
+Local Manifest - CyanogenMod 9.1 Android 4.0.4
+==============================================
 
-local manifest for for replacing CM repo's for BroadcomCM specific
+local manifest for for replacing CM repo's for BroadcomCM specific.
+Switch between branches to choose which android verision you want to build.
 
 
 Little How-To
