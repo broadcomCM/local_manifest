@@ -5,7 +5,7 @@
   <remove-project name="CyanogenMod/android_frameworks_base" />
   
   <!-- BroadcomCM repositories -->
-  <project path="frameworks/base" name="BroadcomCM/android_frameworks_base" remote="BroadcomCM" revision="master"/>
+  <project path="frameworks/base" name="BroadcomCM/android_frameworks_base" remote="BroadcomCM" revision="gingerbread"/>
   
   <!-- SAMSUNG BCM21553 device tree and vendor -->
   <project path="device/samsung/totoro" name="BroadcomCM/android_device_samsung_totoro" remote="BroadcomCM" revision="cm-7.2.0"/>
