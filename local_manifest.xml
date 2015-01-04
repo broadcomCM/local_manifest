@@ -1,7 +1,7 @@
   <manifest>
   <remote name="broadcomCM" fetch="https://github.com/" />
 
-  <!-- Remove CyanogenMod / androidarmv6 repositories -->
+  <!-- CyanogenMod / androidarmv6 repositories -->
   <remove-project name="CyanogenMod/android_bionic" />
   <remove-project name="androidarmv6/android_build" />
   <remove-project name="CyanogenMod/android_bootable_recovery" /> 
@@ -9,7 +9,7 @@
   <remove-project name="androidarmv6/android_system_core" />
   <remove-project name="CyanogenMod/android_system_vold" />
 
-  <!-- Replace deleted repositores from BroadcomCM -->
+  <!-- BroadcomCM repositories -->
   <project path="bionic" name="broadcomCM/android_bionic" remote="broadcomCM" revision="ics"/>
   <project path="build" name="broadcomCM/android_build" remote="broadcomCM" revision="ics-plus"/>
   <project path="bootable/recovery" name="broadcomCM/android_bootable_recovery" remote="broadcomCM" revision="ics"/>
@@ -18,7 +18,7 @@
   <project path="system/vold" name="broadcomCM/android_system_vold" remote="broadcomCM" revision="ics"/>
   <project path="hardware/broadcom/brcm_usrlib" name="broadcomCM/android_hardware_broadcom_brcm_usrlib" remote="broadcomCM" revision="ics"/>
 
-  <!-- Devices tree files -->
+  <!-- SAMSUNG BCM21553 device tree, kernel and vendor -->
   <project path="kernel/samsung/bcm21553-common" name="broadcomCM/android_kernel_samsung_bcm21553-common" remote="broadcomCM" revision="ics"/>
   <project path="device/samsung/totoro" name="broadcomCM/android_device_samsung_totoro" remote="broadcomCM" revision="ics"/>
   <project path="device/samsung/cooperve" name="broadcomCM/android_device_samsung_cooperve" remote="broadcomCM" revision="ics"/>
