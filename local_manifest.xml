@@ -1,11 +1,23 @@
   <manifest>
   <remote name="BroadcomCM" fetch="git://github.com/BroadcomCM/" />
+  
+  <!-- CyanogenMod repositories -->
   <remove-project name="CyanogenMod/android_frameworks_base" />
+  
+  <!-- BroadcomCM repositories -->
   <project path="frameworks/base" name="BroadcomCM/android_frameworks_base" remote="BroadcomCM" revision="master"/>
+  
+  <!-- SAMSUNG BCM21553 device tree and vendor -->
   <project path="device/samsung/totoro" name="BroadcomCM/android_device_samsung_totoro" remote="BroadcomCM" revision="cm-7.2.0"/>
   <project path="device/samsung/cooperve" name="BroadcomCM/android_device_samsung_cooperve" remote="BroadcomCM" revision="cm-7.2.0"/>
   <project path="device/samsung/tassve" name="BroadcomCM/android_device_samsung_tassve" remote="BroadcomCM" revision="cm-7.2.0"/>
   <project path="device/samsung/cori" name="BroadcomCM/android_device_samsung_cori" remote="BroadcomCM" revision="cm-7.2.0"/>
   <project path="device/samsung/bcm21553-common" name="BroadcomCM/android_device_samsung_bcm21553-common" remote="BroadcomCM" revision="cm-7.2.0"/>
   <project path="vendor/samsung" name="BroadcomCM/android_vendor_samsung" remote="BroadcomCM" revision="cm-7.2.0"/>
+  
+  <!-- ALCATEL BCM21553 device tree and vendor-->
+  <project path="device/alcatel/v860" name="BroadcomCM/android_device_alcatel_v860" remote="BroadcomCM" revision="cm-7.2.0"/>
+  <project path="device/alcatel/bcm21553-common" name="BroadcomCM/android_device_alcatel_bcm21553-common" remote="BroadcomCM" revision="cm-7.2.0"/>
+  <project path="vendor/alcatel" name="BroadcomCM/android_vendor_alcatel" remote="BroadcomCM" revision="cm-7.2.0"/>
+  
 </manifest>
